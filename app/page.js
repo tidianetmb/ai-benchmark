@@ -141,7 +141,7 @@ export default function BenchmarkApp() {
               isDarkMode ? "text-white" : "text-neutral-900"
             }`}
           >
-            Neural Shoot
+           Gen AI Benchmark
           </h1>
         </motion.div>
 
@@ -397,7 +397,7 @@ export default function BenchmarkApp() {
                   </>
                 ) : (
                   <>
-                    <span className="hidden sm:inline">Neural Render</span>
+                    <span className="hidden sm:inline">Bench !</span>
                     <span className="sm:hidden">Run</span>
                     <motion.div
                       animate={{ x: [0, 3, 0] }}
